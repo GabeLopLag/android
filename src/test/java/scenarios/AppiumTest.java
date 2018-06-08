@@ -28,7 +28,7 @@ public class AppiumTest extends  AndroidSetup
     @Test
     public void mainActivityMenuClick()
     {
-        Assert.assertFalse(new MainActivityMenuClick(driver).controlTest());
+        new MainActivityMenuClick(driver).controlTest();
         System.out.print("Successssss");
     }
 }
